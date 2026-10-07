@@ -1,0 +1,365 @@
+:root {
+  font-family: Inter, "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #0f172a;
+  background: #f8fafc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  min-width: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+}
+
+button, input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.page-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #2563eb, #14b8a6);
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.brand-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.brand small {
+  color: #64748b;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(300px, 420px);
+  gap: 24px;
+  align-items: start;
+}
+
+.panel {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.06);
+  padding: 22px;
+}
+
+.panel--wide {
+  min-height: 540px;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.panel-header--compact {
+  margin-bottom: 20px;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  color: #64748b;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+}
+
+h2 {
+  font-size: 1.35rem;
+}
+
+.chip {
+  display: inline-flex;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.08);
+  color: #1d4ed8;
+  font-weight: 600;
+}
+
+.alert {
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  color: #b91c1c;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+}
+
+.list-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.search-field {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 420px;
+  color: #475569;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.search-field input {
+  min-height: 42px;
+  width: 100%;
+  padding: 9px 12px;
+  color: #0f172a;
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+}
+
+.search-field input:focus {
+  outline: 2px solid rgba(37, 99, 235, 0.2);
+  border-color: #2563eb;
+}
+
+.results-count,
+.pagination-summary {
+  color: #64748b;
+  font-size: 0.875rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  background: #f8fafc;
+  color: #64748b;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 12px 16px;
+}
+
+tbody td {
+  padding: 14px 16px;
+  border-top: 1px solid #e2e8f0;
+  color: #0f172a;
+}
+
+.empty-state {
+  text-align: center;
+  color: #64748b;
+  padding: 24px 16px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pagination-button {
+  min-height: 36px;
+  padding: 6px 12px;
+  color: #1d4ed8;
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.pagination-button:hover:not(:disabled) {
+  background: #eff6ff;
+}
+
+.pagination-button:disabled {
+  color: #94a3b8;
+  cursor: not-allowed;
+  background: #f8fafc;
+}
+
+.pagination-page {
+  color: #475569;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.danger-button,
+.primary-button {
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.danger-button {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 8px 12px;
+}
+
+.primary-button {
+  width: 100%;
+  min-height: 46px;
+  background: linear-gradient(135deg, #2563eb, #14b8a6);
+  color: white;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.18);
+}
+
+.danger-button:hover,
+.primary-button:hover {
+  transform: translateY(-1px);
+}
+
+.primary-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.employee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.employee-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #334155;
+  font-weight: 600;
+}
+
+.employee-form input {
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 1rem;
+  color: #0f172a;
+}
+
+.employee-form input:focus {
+  outline: 2px solid rgba(37, 99, 235, 0.2);
+  border-color: #2563eb;
+}
+
+.table-skeleton {
+  display: grid;
+  gap: 12px;
+  padding-top: 8px;
+}
+
+.table-skeleton > div {
+  height: 52px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #e2e8f0 0%, #f8fafc 50%, #e2e8f0 100%);
+  background-size: 200% 100%;
+  animation: pulse 1.2s linear infinite;
+}
+
+@keyframes pulse {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@media (max-width: 860px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .panel {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 560px) {
+  .list-toolbar,
+  .pagination {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .results-count {
+    align-self: flex-end;
+  }
+
+  .pagination-controls {
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,47 @@
+using EmployeeManagement.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+
+namespace EmployeeManagement.Infrastructure.Data;
+
+public class EmployeeDbContext : DbContext
+{
+    public EmployeeDbContext(DbContextOptions<EmployeeDbContext> options)
+        : base(options)
+    {
+    }
+
+    public DbSet<Employee> Employees => Set<Employee>();
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Employee>(entity =>
+        {
+            entity.ToTable("employees");
+
+            entity.HasKey(e => e.Id);
+            entity.Property(e => e.Id)
+                .HasColumnName("id");
+               
+
+            entity.Property(e => e.Name)
+                .HasColumnName("name")
+                .HasMaxLength(200)
+                .IsRequired();
+
+            entity.Property(e => e.DateOfBirth)
+                .HasColumnName("date_of_birth")
+                .IsRequired();
+
+            entity.Property(e => e.PhoneNumber)
+                .HasColumnName("phone_number")
+                .HasMaxLength(30)
+                .IsRequired();
+
+            entity.Property(e => e.CreatedAtUtc)
+                .HasColumnName("created_at_utc")
+                .IsRequired();
+        });
+
+        base.OnModelCreating(modelBuilder);
+    }
+}

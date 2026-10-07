@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\employee-web\\src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA5676D4-F2C5-6AC5-4C90-9ED9A24D8D3B}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|d:\\mohini\\employeemanagement\\employeemanagement\\employeemgmt\\employeemanagement.infrastructure\\repositories\\inmemoryemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA5676D4-F2C5-6AC5-4C90-9ED9A24D8D3B}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\repositories\\inmemoryemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106BAD29-3BCF-9EAC-2A4B-F24681C06806}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|d:\\mohini\\employeemanagement\\employeemanagement\\employeemgmt\\employeemanagement.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106BAD29-3BCF-9EAC-2A4B-F24681C06806}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|solutionrelative:employeemanagement.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA5676D4-F2C5-6AC5-4C90-9ED9A24D8D3B}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|d:\\mohini\\employeemanagement\\employeemanagement\\employeemgmt\\employeemanagement.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA5676D4-F2C5-6AC5-4C90-9ED9A24D8D3B}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA5676D4-F2C5-6AC5-4C90-9ED9A24D8D3B}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|d:\\mohini\\employeemanagement\\employeemanagement\\employeemgmt\\employeemanagement.infrastructure\\data\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA5676D4-F2C5-6AC5-4C90-9ED9A24D8D3B}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\data\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mohini Rajebhosale\\.copilot\\plans\\plan-configure-ef-so-database-generates-employee.id-on-insert.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA5676D4-F2C5-6AC5-4C90-9ED9A24D8D3B}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|d:\\mohini\\employeemanagement\\employeemanagement\\employeemgmt\\employeemanagement.infrastructure\\employeemanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AA5676D4-F2C5-6AC5-4C90-9ED9A24D8D3B}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\employeemanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6079341-48B4-8009-5517-5C74911DE5EC}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|d:\\mohini\\employeemanagement\\employeemanagement\\employeemgmt\\employeemanagement.api\\employeemanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A6079341-48B4-8009-5517-5C74911DE5EC}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|solutionrelative:employeemanagement.api\\employeemanagement.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6079341-48B4-8009-5517-5C74911DE5EC}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|d:\\mohini\\employeemanagement\\employeemanagement\\employeemgmt\\employeemanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A6079341-48B4-8009-5517-5C74911DE5EC}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|solutionrelative:employeemanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.tsx",
+              "DocumentMoniker": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\employee-web\\src\\App.tsx",
+              "RelativeDocumentMoniker": "..\\employee-web\\src\\App.tsx",
+              "ToolTip": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\employee-web\\src\\App.tsx",
+              "RelativeToolTip": "..\\employee-web\\src\\App.tsx",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAewJAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-10-07T15:59:49.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "ToolTip": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "RelativeToolTip": "EmployeeManagement.Domain\\Entities\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T12:39:09.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T12:27:53.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InMemoryEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Infrastructure\\Repositories\\InMemoryEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Repositories\\InMemoryEmployeeRepository.cs",
+              "ToolTip": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Infrastructure\\Repositories\\InMemoryEmployeeRepository.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Repositories\\InMemoryEmployeeRepository.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAOwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T12:39:18.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Infrastructure\\Data\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Data\\EmployeeDbContext.cs",
+              "ToolTip": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Infrastructure\\Data\\EmployeeDbContext.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Data\\EmployeeDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAewBYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T12:34:58.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "plan-configure-ef-so-database-generates-employee.id-on-insert.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\Mohini Rajebhosale\\.copilot\\plans\\plan-configure-ef-so-database-generates-employee.id-on-insert.md",
+              "ToolTip": "C:\\Users\\Mohini Rajebhosale\\.copilot\\plans\\plan-configure-ef-so-database-generates-employee.id-on-insert.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-10-07T12:33:25.704Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeManagement.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj",
+              "ToolTip": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-07T12:27:45.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EmployeeManagement.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EmployeeManagement.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-07T12:07:10.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeManagement.Api.http",
+              "DocumentMoniker": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Api\\EmployeeManagement.Api.http",
+              "RelativeDocumentMoniker": "EmployeeManagement.Api\\EmployeeManagement.Api.http",
+              "ToolTip": "D:\\Mohini\\EmployeeManagement\\EmployeeManagement\\EmployeeMgmt\\EmployeeManagement.Api\\EmployeeManagement.Api.http",
+              "RelativeToolTip": "EmployeeManagement.Api\\EmployeeManagement.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-10-07T11:48:16.35Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

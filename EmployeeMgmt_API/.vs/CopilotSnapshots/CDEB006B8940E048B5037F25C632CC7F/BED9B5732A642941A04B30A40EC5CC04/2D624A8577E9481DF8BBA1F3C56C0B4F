@@ -1,0 +1,58 @@
+﻿using EmployeeManagement.Application.Contracts;
+using EmployeeManagement.Domain.Entities;
+
+namespace EmployeeManagement.Infrastructure.Repositories;
+
+public class InMemoryEmployeeRepository : IEmployeeRepository
+{
+    private readonly List<Employee> _employees =
+    [
+        new Employee
+        {
+            Id = 1,
+            Name = "Aisha Patel",
+            DateOfBirth = new DateOnly(1990, 4, 18),
+            PhoneNumber = "+1 (415) 555-0123",
+            CreatedAtUtc = DateTime.UtcNow.AddDays(-12)
+        },
+        new Employee
+        {
+            Id = 2,
+            Name = "Daniel Kim",
+            DateOfBirth = new DateOnly(1987, 11, 9),
+            PhoneNumber = "+1 (212) 555-0142",
+            CreatedAtUtc = DateTime.UtcNow.AddDays(-7)
+        }
+    ];
+
+    public Task<IReadOnlyList<Employee>> GetAllAsync(CancellationToken cancellationToken = default)
+    {
+        cancellationToken.ThrowIfCancellationRequested();
+        return Task.FromResult<IReadOnlyList<Employee>>(_employees.OrderByDescending(x => x.CreatedAtUtc).ToList());
+    }
+
+    public Task<Employee?> GetByIdAsync(int id, CancellationToken cancellationToken = default)
+    {
+        cancellationToken.ThrowIfCancellationRequested();
+        return Task.FromResult(_employees.FirstOrDefault(x => x.Id == id));
+    }
+
+    public Task<Employee> AddAsync(Employee employee, CancellationToken cancellationToken = default)
+    {
+        cancellationToken.ThrowIfCancellationRequested();
+
+        employee.Id = employee.Id == 0 ? _employees.Count + 1 : employee.Id;
+        employee.CreatedAtUtc = employee.CreatedAtUtc == default ? DateTime.UtcNow : employee.CreatedAtUtc;
+
+        _employees.Add(employee);
+        return Task.FromResult(employee);
+    }
+
+    public Task<bool> DeleteAsync(int id, CancellationToken cancellationToken = default)
+    {
+        cancellationToken.ThrowIfCancellationRequested();
+
+        var removed = _employees.RemoveAll(x => x.Id == id);
+        return Task.FromResult(removed > 0);
+    }
+}
